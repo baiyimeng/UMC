@@ -65,7 +65,7 @@ def get_data(data_path=None):
     if not data_path:
         raise ValueError("data_path must be provided")
 
-    path = os.path.join(data_path, "process/data.pkl")
+    path = os.path.join(data_path, "data.pkl")
     data = pd.read_pickle(filepath_or_buffer=path)
 
     feature_names = list(data.columns)[:-1]  # only sparse features
