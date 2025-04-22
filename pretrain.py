@@ -37,11 +37,8 @@ class Config(object):
     def __init__(self):
         # data
         self.data_root = "/data/baiyimeng/dataset"
-        self.data_name = "tenrec"
-        self.field_index = 0
-
-        # self.data_name = 'avazu'
-        # self.field_index = 2
+        self.data_name = 'avazu'
+        self.field_index = 2
 
         # model
         self.model_name = "deepfm"
